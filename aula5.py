@@ -48,12 +48,12 @@ array_func = [func1,func2,func3,func4]
 
 from skimage.io import imread
 
-# img = imread('/home/luisotavio/Downloads/pollen.jpg')
+# img = imread('pollen.jpg')
 # plt.imshow(img)
 # plt.show()
 
 imgs = list()
-path = '/home/luisotavio/Área de Trabalho/dog/'
+path = 'dog/'
 
 for i in range(4):
     imgs.append(imread(path+str(i+1)+'.jpg'))
