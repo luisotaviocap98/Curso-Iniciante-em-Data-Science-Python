@@ -1,7 +1,6 @@
 # dicio = {
     # 'nome':'',
     # 'idade':22,
-    # 'sexo':'sempre',
     # 'dinheiro':10500
 # }
 
