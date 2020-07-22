@@ -1,7 +1,7 @@
 import pandas
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import ExtraTreesClassifier #arvore de decisao
-data = pandas.read_csv('/home/luisotavio/Downloads/datasets_16721_22034_wine_dataset.csv')
+data = pandas.read_csv('datasets_16721_22034_wine_dataset.csv')
 
 data['style'] = data['style'].replace('red',0)
 data['style'] = data['style'].replace('white',1)
