@@ -2,7 +2,7 @@ import pandas
 import matplotlib.pyplot as plt
 import numpy
 
-tst = pandas.read_csv('/home/luisotavio/Downloads/athlete_events.csv')
+tst = pandas.read_csv('athlete_events.csv')
 # tst.hist(column='Age',bins=10) #column eh a coluna selecionada no dataset, bins quantidade de barras
 # plt.show()
 
