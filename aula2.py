@@ -12,8 +12,8 @@
 
 import pandas 
 
-# teste = pandas.read_excel('/home/luisotavio/Downloads/Planilha data science.xlsx')
-# tst = pandas.read_csv('/home/luisotavio/Downloads/Planilha data science - Página1.csv')
+# teste = pandas.read_excel('Planilha data science.xlsx')
+# tst = pandas.read_csv('Planilha data science - Página1.csv')
 
 # print(tst.head()) #primeiras X (padrao 5) linhas
 
